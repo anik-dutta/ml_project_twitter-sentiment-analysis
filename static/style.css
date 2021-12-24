@@ -1,0 +1,42 @@
+body{
+	font:15px/1.5 Arial,helvetica;
+	padding:0px;
+	background: linear-gradient(#1f0566, #5c6dcc) no-repeat center center fixed; 
+    background-size: cover;
+}
+header{
+	font-size: 35px;
+	font: bold;
+	height:150px;
+	width:100%;
+	padding-top:1px;
+	text-align:center;
+	color: #e6f6f7;
+}
+.model-input, .model-output{
+	font-size: 20px;
+	margin:0px;
+	text-align:center;
+	color: #e6f6f7;	
+}
+.text-box{
+	border-radius: 5px;
+	margin-bottom: 20px;
+	width:550px;
+	resize: vertical;
+	padding: 8px;
+}
+a .btn-info{
+	color: #e6f6f7;
+	text-decoration: none;
+}
+.btn-info{
+	background-color:#02001c;
+	border:  none;
+	border-radius: 5px;
+	height:40px;
+	width:100px;
+}
+.btn-info:hover {
+	background:#630429;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HOME</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	</head>
+	<body>
+		<header>
+			<h2>Twitter Sentiment Analyzer</h2>
+		</header>
+		<div class="model-input">
+			<h3>The Twitter Sentiment Analyzer analyzes if a comment is negative or not.</h3>
+			<h3>Enter your text</h3>
+			<form action="{{ url_for('predict')}}" method="POST">
+				<textarea name="message" class="text-box" rows="4"></textarea>
+				<br/>
+				<input type="submit" class="btn-info" value="Predict">
+			</form>
+		</div>
+	</body>
+</html>	
