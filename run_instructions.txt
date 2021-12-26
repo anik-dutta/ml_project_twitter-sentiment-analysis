@@ -1,6 +1,0 @@
-In order to run app.py, follow these steps-
-
-1. Open anaconda prompt
-2. Then navigate to the directory of the app.py file....(in my case the file is in miniapp folder of Desktop...so i have to use the command cd Desktop/miniapp...(C:\Users\ANIK>cd Desktop/miniapp)
-3. After navigating to the directory, type python app.py... (C:\Users\ANIK\Desktop\miniapp>python app.py)
-4. Run the localhost url in the browser.
